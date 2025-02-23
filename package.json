@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  },
+  "private": true,
+  "workspaces": [
+    "monitor",
+    "scraper",
+    "trader"
+  ],
+  "version": "independent"
+}

@@ -1,12 +1,16 @@
 {
-  "devDependencies": {
-    "lerna": "^8.1.9"
-  },
+  "name": "trading-nestjs",
   "private": true,
+  "scripts": {
+    "build": "npm run build --workspace packages/common && npm run build --workspace services/monitor && npm run build --workspace services/scraper && npm run build --workspace services/trader",
+    "start:dev": "npm run start:dev --workspace services/monitor & npm run start:dev --workspace services/scraper & npm run start:dev --workspace services/trader",
+    "clean": "npm run clean --workspace packages/common && npm run clean --workspace services/monitor && npm run clean --workspace services/scraper && npm run clean --workspace services/trader"
+  },
   "workspaces": [
-    "monitor",
-    "scraper",
-    "trader"
+    "packages/common",
+    "services/monitor",
+    "services/scraper",
+    "services/trader"
   ],
   "version": "independent"
 }

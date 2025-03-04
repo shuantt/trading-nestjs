@@ -1,1 +1,37 @@
+# Node modules
 node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# TypeScript files
+*.tsbuildinfo
+
+# Yarn and npm lock files (視專案需求而定)
+# yarn.lock
+# package-lock.json

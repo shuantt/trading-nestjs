@@ -3,6 +3,7 @@ import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
 import * as dayjs from 'dayjs';
 import * as numeral from 'numeral';
+import { isWeekend } from '@trading-nestjs/common';
 
 /**
  * TpexScraperService 負責櫃買中心(TPEx)資料爬蟲
@@ -12,7 +13,12 @@ import * as numeral from 'numeral';
 export class TpexScraperService implements OnApplicationBootstrap {
   constructor(private httpService: HttpService) {}
 
-  async onApplicationBootstrap() {}
+  async onApplicationBootstrap() {
+    console.log('TpexScraperService has been initialized.');
+    const date = dayjs().format('YYYY-MM-DD');
+    const test = isWeekend(date);
+    console.log(test);
+  }
 
   /**
    * 取得上櫃股票交易資料

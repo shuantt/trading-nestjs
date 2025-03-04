@@ -22,7 +22,9 @@ export class TwseScraperService implements OnApplicationBootstrap {
    * ...其他設定
    * 由於只是用於監測，因此確認完可移除，避免每次啟動時都執行
    */
-  async onApplicationBootstrap() {}
+  async onApplicationBootstrap() {
+    console.log('TwseScraperService has been initialized.');
+  }
 
   /**
    * 取得上市上櫃股票清單

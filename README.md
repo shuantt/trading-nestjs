@@ -12,12 +12,15 @@ npm run start:dev
 npm cd packages/common 
 npm run build
 ```
-## 進度
+## 實作內容進度
 
-- [x] Day 01
-- [x] Day 02
-- [x] Day 03
-- [x] Day 04
+- [x] Day 01 - 環境建立
+- [x] Day 02 - 股票清單
+- [x] Day 03 - 市場成交資訊
+- [x] Day 04 - 三大法人買賣超
+- [x] Day 05 - 融資融券餘額
+- [ ] Day 06 - 三大法人期貨未平倉
+
 
 ## 參考資料
 

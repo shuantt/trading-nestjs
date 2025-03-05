@@ -15,10 +15,9 @@
   "author": "shuantt",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.30.1"
+    "dayjs": "^1.11.13"
   },
   "devDependencies": {
-    "@types/moment": "^2.13.0",
     "rimraf": "^5.0.10"
   }
 }

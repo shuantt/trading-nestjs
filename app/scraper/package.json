@@ -26,6 +26,7 @@
     "@nestjs/platform-express": "^10.0.0",
     "@trading-nestjs/common": "^1.0.0",
     "cheerio": "^1.0.0",
+    "csvjson": "^5.1.0",
     "dayjs": "^1.11.13",
     "iconv-lite": "^0.6.3",
     "numeral": "^2.0.6",

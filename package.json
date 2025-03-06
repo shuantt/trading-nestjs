@@ -2,15 +2,15 @@
   "name": "trading-nestjs",
   "private": true,
   "scripts": {
-    "build": "npm run build --workspace packages/common && npm run build --workspace services/monitor && npm run build --workspace services/scraper && npm run build --workspace services/trader",
-    "start:dev": "npm run start:dev --workspace services/monitor & npm run start:dev --workspace services/scraper & npm run start:dev --workspace services/trader",
-    "clean": "npm run clean --workspace packages/common && npm run clean --workspace services/monitor && npm run clean --workspace services/scraper && npm run clean --workspace services/trader"
+    "build": "npm run build --workspace packages/common && npm run build --workspace app/monitor && npm run build --workspace app/scraper && npm run build --workspace app/trader",
+    "start:dev": "npm run start:dev --workspace app/monitor & npm run start:dev --workspace app/scraper & npm run start:dev --workspace app/trader",
+    "clean": "npm run clean --workspace packages/common && npm run clean --workspace app/monitor && npm run clean --workspace app/scraper && npm run clean --workspace app/trader"
   },
   "workspaces": [
     "packages/common",
-    "services/monitor",
-    "services/scraper",
-    "services/trader"
+    "app/monitor",
+    "app/scraper",
+    "app/trader"
   ],
   "version": "independent"
 }

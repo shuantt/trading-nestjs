@@ -14,7 +14,7 @@ export class TpexScraperService {
 	constructor(private httpService: HttpService) {}
 
 	/**
-	 * 爬取上市櫃股票清單，僅適用於台灣證券交易所(TWSE)
+	 * 爬取上市櫃股票清單，僅台灣證券交易所(TWSE)有實作
 	 * @param options 選項
 	 * @param options.market 市場類型，預設為 TSE (上市)
 	 * @returns 上市櫃股票清單
@@ -89,7 +89,6 @@ export class TpexScraperService {
 		})
 
 		const [, , , , , , , up, limitUp, down, limitDown, unchanged, unmatched] = response[0]
-
 		const marketBreadthData = {
 			date: formattedDate,
 			up,
@@ -239,4 +238,6 @@ export class TpexScraperService {
 
 		return result
 	}
+
+	
 }

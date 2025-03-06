@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common'
 import { HttpModule } from '@nestjs/axios'
-import { TwseScraperService } from './services/twseScraper.service'
-import { TpexScraperService } from './services/tpexScraper.service'
+import { TwseScraperService } from './services/twse-scraper.service'
+import { TpexScraperService } from './services/tpex-scraper.service'
 
 @Module({
 	imports: [HttpModule],

@@ -14,12 +14,13 @@ npm run build
 ```
 ## 實作內容進度
 
-- [x] Day 01 - 環境建立
-- [x] Day 02 - 股票清單
-- [x] Day 03 - 市場成交資訊
-- [x] Day 04 - 三大法人買賣超
-- [x] Day 05 - 融資融券餘額
-- [ ] Day 06 - 三大法人期貨未平倉
+- [x] Day 01 - [環境建立](https://ithelp.ithome.com.tw/articles/10287218)
+- [x] Day 02 - [股票清單&資料源](https://ithelp.ithome.com.tw/articles/10287328)
+- [x] Day 03 - [市場成交資訊](https://ithelp.ithome.com.tw/articles/10287544)
+- [x] Day 04 - [三大法人買賣超](https://ithelp.ithome.com.tw/articles/10287696)
+- [x] Day 05 - [融資融券餘額](https://ithelp.ithome.com.tw/articles/10287885)
+- [x] Day 06 - [三大法人期貨未平倉](https://ithelp.ithome.com.tw/articles/10288138)
+- [ ] Day 07 - [三大法人臺指選擇權未平倉](https://ithelp.ithome.com.tw/articles/10288357)
 
 
 ## 參考資料

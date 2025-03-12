@@ -269,6 +269,11 @@ export class TwseScraperService {
 		return result
 	}
 
+	/**
+	 * 爬取融資融券餘額
+	 * @param date 日期格式: YYYY-MM-DD
+	 * @returns 融資融券餘額
+	 */
 	async fetchMarginTransactions(date: string) {
 		// 檢查日期是否為周末
 		const dayOfWeek = dayjs(date).day()

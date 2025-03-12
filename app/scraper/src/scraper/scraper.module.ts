@@ -19,6 +19,9 @@ export class ScraperModule {
 		console.log('ScraperModule has been initialized.')
 		// console.log('ScarperModule Print:', await this.twseScraperService.fetchMarginTransactions('2022-07-01'))
 		// console.log('ScarperModule Print:', await this.tpexScraperService.fetchMarginTransactions('2022-07-01'))
-		console.log('ScarperModule Print:', await this.taifexScraperService.fetchInstInvestorsTxfTrades('2022-07-01'))
+		// console.log('ScarperModule Print:', await this.taifexScraperService.fetchInstInverstorsTxoTrades('2022-07-01'))
+		// console.log('ScarperModule Print:', await this.taifexScraperService.fetchTxoPutCallRatio('2022-07-01'))
+		// console.log('ScarperModule Print:', await this.taifexScraperService.fetchLargeTradersTxfPosition('2022-07-01'))
+		// console.log('ScarperModule Print:', await this.taifexScraperService.fetchLargeTradersTxoPosition('2022-07-01'))
 	}
 }
